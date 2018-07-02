@@ -1,0 +1,113 @@
+body {
+    background: #eeeeee;
+    font-family: sans-serif;
+    color: #333333;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: left;
+}
+.t-header {
+    background: #ced4d0;
+}
+
+#s-sheets {
+    display: inline-block;
+    float: left;
+}
+
+.main-st-btn {
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.chng-w-h {
+    height: 100%;
+    width: 65%;
+    box-sizing: border-box;
+}
+.btn-clt, .add-sheet-btn {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.remove-btn {
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.d-chng-w-h {
+    height: 100%;
+    width: 70%;
+    box-sizing: border-box;
+}
+.d-remove-btn {
+    height: 100%;
+    width: 30%;
+    box-sizing: border-box;
+}
+.add-detail {
+    width: 100%;
+}
+
+.inp-forms, .d-edit-forms {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.btn-dlt:hover {
+    background: #ea5455;
+}
+
+.btn-add:hover, .btn-clt:hover, .btn-chng:hover {
+    background: #f07b3f;
+}
+.brd {
+    border: 1px solid #ccd4d0;
+}
+.bg-color {
+    background: #eeeeee;
+}
+.d-edit-form, .s-edit-form {
+    padding-left: 5px !important;
+}
+.tables tr td, .sheet-table {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.none-border {
+    border: none;
+}
+
+.tables, #s-table, .sheet-table {
+    background: rgb(0,0,0,0);
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.sheet-table {
+    background: #eeeeee;
+    margin-left: 20px;
+}
+
+canvas {
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+
+
+
+
