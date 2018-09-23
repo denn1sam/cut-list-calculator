@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.tbl {
+    /* border: 1px solid #000; */
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 0;
+}
+
+th {
+    background: #ececec;
+    padding: 3px;
+}
+td, 
+input[type="text"], 
+input[type="color"] {
+    height: 35px;
+}
+
+td {
+    background: #eeeeee;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+}
+#sheets-container {
+    padding-left: 40px;
+}
+#sheets-container table {
+    margin: 20px;
+}
+
+.sheet-table td {
+    width: 25%;
+}
